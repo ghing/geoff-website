@@ -1,0 +1,27 @@
+{
+  "name": "geoff-website",
+  "version": "0.1.0",
+  "description": "Static website for Geoff Hing's links",
+  "main": "index.js",
+  "scripts": {
+    "start": "npx @11ty/eleventy --serve",
+    "build": "npx @11ty/eleventy",
+    "deploy": "./scripts/deploy.mjs",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ghing/geoff-website.git"
+  },
+  "author": "Geoff Hing <geoffhing@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ghing/geoff-website/issues"
+  },
+  "homepage": "https://github.com/ghing/geoff-website#readme",
+  "devDependencies": {
+    "@11ty/eleventy": "^1.0.2",
+    "dotenv": "^16.0.3",
+    "ssh2-sftp-client": "^9.0.4"
+  }
+}
