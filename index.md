@@ -10,7 +10,7 @@ links:
 ---
 # It's me, Geoff Hing
 
-<ul>
+<ul class="links">
 {% for link in links %}
   <li><a href="{{link.url}}"{% if link.me %}rel="me"{% endif %}>{{link.label}}</a></li>
 {% endfor %}
