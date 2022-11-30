@@ -48,4 +48,11 @@
         {{ content }}
     </main>
   </body>
+  <script>
+    ((document) => {
+      document.querySelectorAll('a[data-type="email"]').forEach((el) => {
+        el.setAttribute('href', 'mailto:'.concat(atob(el.dataset.addr))); 
+      });
+    })(document);
+  </script>
 </html>
