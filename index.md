@@ -10,6 +10,8 @@ links:
   - label: E-mail
     type: email
     encodedAddress: Z2VvZmZoaW5nQGdtYWlsLmNvbQ==
+  - label: The Marshall Project (my job)
+    url: https://www.themarshallproject.org/staff/geoff-hing
 ---
 # It's me, Geoff Hing
 
