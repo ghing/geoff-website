@@ -7,6 +7,8 @@ links:
     me: true
   - label: GitHub
     url: https://github.com/ghing/
+  - label: Blog
+    url: https://blogs.terrorware.com/geoff
   - label: E-mail
     type: email
     encodedAddress: Z2VvZmZoaW5nQGdtYWlsLmNvbQ==
